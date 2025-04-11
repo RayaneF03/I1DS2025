@@ -116,3 +116,27 @@ body {
     gap: 7px;
   }
   
+  .ifood {
+    position: fixed;
+    right: 0;
+    top: 200px;
+    box-shadow: -10px 10px 13px 0px   rgba(0, 0, 0, 0.365);
+  }
+
+  
+  #BoasVindas {
+    display: flex;
+justify-content: center;
+align-items: center;
+margin: 0;
+  gap: 20px;
+
+  }
+
+  #TextoBoasVindas {
+    max-width: 600px;
+     
+    & p {
+      margin: 0;
+    }
+  }
