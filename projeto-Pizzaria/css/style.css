@@ -1,3 +1,6 @@
+html {
+scroll-behavior: smooth;
+}
 body {
   margin: 0;
   padding: 0;
@@ -13,7 +16,7 @@ body {
 }
 
 .bgfundo {
-  background: url(https://placehold.co/1920x1080) no-repeat center/cover;
+  background: url(../img/1920x1080.jpg) no-repeat center/cover;
 
   /*background-color: blue;
      background-image: url(https://placehold.co/1920x1080);
@@ -84,7 +87,7 @@ header {
 
 .main-navigation a:hover,
 .main-navigation a:focus {
-  border-color: #e7a200;
+  border-color: #e78300;
 }
 
 .site-header-main {
@@ -104,7 +107,7 @@ header {
 }
 
 #btnzap {
-  background: #e7a200;
+  background: #e77b00;
   border-radius: 65px;
   padding: 3px 15px;
   font-size: 20px;
@@ -122,6 +125,8 @@ header {
   right: 0;
   top: 200px;
   box-shadow: 10px 10px 13px 0px black;
+  height: 92px;
+  border-radius: 50px;
 }
 
 #boasVindas{
@@ -243,7 +248,7 @@ text-align: center;
   text-transform: uppercase;
 
   & h2 {
-    color: #e7a200;
+    color: #e77700;
     font-size: 28px;
     line-height: 80px;
     margin: 0;
@@ -285,7 +290,7 @@ text-align: center;
   }
 
   input[type="submit"] {
-    background: #e7a200;
+    background: #e77000;
     border-color: #e7a200;
     width: 155px;
     border-radius: 50px;
